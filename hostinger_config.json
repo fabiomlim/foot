@@ -1,0 +1,35 @@
+{
+  "hostinger": {
+    "environment": "production",
+    "debug": false,
+    "host": "0.0.0.0",
+    "port": 5000
+  },
+  "api": {
+    "api_key": null,
+    "update_interval": 60,
+    "max_retries": 2,
+    "timeout": 15
+  },
+  "database": {
+    "path": "football_predictions.db",
+    "backup_interval": 7200,
+    "cleanup_days": 7
+  },
+  "monitoring": {
+    "health_check_interval": 300,
+    "alert_thresholds": {
+      "api_errors": 3,
+      "low_confidence": 0.4
+    }
+  },
+  "logging": {
+    "level": "WARNING",
+    "max_file_size": 5242880,
+    "backup_count": 2
+  },
+  "cache": {
+    "duration": 600,
+    "max_size": 100
+  }
+}

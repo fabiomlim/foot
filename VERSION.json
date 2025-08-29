@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "build_date": "2025-08-27T23:05:11.390600",
+  "description": "Football Prediction System for Hostinger",
+  "author": "Manus AI",
+  "requirements": {
+    "python": "3.8+",
+    "hosting": "Hostinger VPS/Cloud",
+    "memory": "512MB+",
+    "storage": "1GB+"
+  },
+  "features": [
+    "Real-time predictions",
+    "Value betting analysis",
+    "Web dashboard",
+    "REST API",
+    "Automatic monitoring",
+    "Data backup",
+    "Multi-league support"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release",
+      "Hostinger optimization",
+      "Automatic installer",
+      "Complete documentation"
+    ]
+  }
+}
